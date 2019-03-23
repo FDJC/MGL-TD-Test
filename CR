@@ -1,0 +1,12 @@
+Comment construire un projet ?
+
+init - Initializes a new Gradle build. [incubating]
+
+
+
+Comment générer de la javadoc ?
+
+javadoc - Generates Javadoc API documentation for the main source code. [classes
+
+Comment lancer des tests ?
+test - Runs the unit tests. [classes, testClasses]
