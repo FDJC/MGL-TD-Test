@@ -12,7 +12,8 @@ branches:
 
 cache:
   directories:
-  - $HOME/Bureau/MGL/Unit\ testing/gradle/
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
 
 script:
 - ./gradlew test
