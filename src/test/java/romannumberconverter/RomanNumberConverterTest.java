@@ -65,6 +65,9 @@ public class RomanNumberConverterTest {
     assertThat(romanNumberConv.convert("V"))
       //.isNotEmpty()
       .isEqualTo(5);
+    assertThat(romanNumberConv.convert("XV"))
+        //.isNotEmpty()
+        .isEqualTo(15);
     assertThat(romanNumberConv.convert("X"))
       //.isNotEmpty()
       .isEqualTo(10);
